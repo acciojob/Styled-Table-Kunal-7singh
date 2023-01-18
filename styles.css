@@ -1,1 +1,21 @@
 /* your code */
+table{
+    position: absolute;
+    top: 50px;
+    border: solid 0px;
+border-radius: 30px;
+background-color: lightgray;
+}
+table,th,td{
+    text-align-last: center;
+    padding: 20px;
+    border-collapse: collapse;
+}
+
+thead{
+    background-color:darkcyan;
+   
+}
+tr:nth-child(2){
+    background-color: darkgray;
+}
